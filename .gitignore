@@ -3,5 +3,7 @@ config.rb
 .idea
 .sass-cache
 sass
-_site
+node_modules
+package-lock.json
+package.json
 
