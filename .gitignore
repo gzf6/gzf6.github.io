@@ -1,6 +1,7 @@
 # 此为注释 – 将被 Git 忽略
-
-.idea
-sass
 config.rb
+.idea
 .sass-cache
+sass
+_site
+
