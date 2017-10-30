@@ -74,3 +74,4 @@ function weibo() {
 
     return false;
 }
+
