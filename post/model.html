@@ -10,14 +10,20 @@
     <script src="../js/main.js"></script>
     <script src="../js/plugin.js"></script>
 </head>
-<body class="model">
+<body>
     <div id="left">
-        <div class="index"></div>
-        <div class="new"></div>
-        <div class="archive"></div>
+        <div class="index">
+            <p>文章索引</p>
+        </div>
+        <div class="new">
+            <p>最新文章</p>
+        </div>
+        <div class="archive">
+            <p>文章归档</p>
+        </div>
     </div>
     <div id="center">
-        <div class="top">
+        <div id="top" class="top">
             <nav>
                 <a href="../index.html">HOME</a>
                 <a href="../blog.html">BLOG</a>
@@ -30,14 +36,52 @@
         </div>
         <div class="middle">
             <div class="main">
-
+                <h1>1.2 测试测试testtest测试测试testtest测试测试testtest</h1>
+                <p class="date">2017.11.1</p>
+                <div id="contentarea">
+                    <div class="cell markdown-cell"><ul>
+                        <li>如果服务器没有能满足客户端需求的文档，服务器可以给出一个错误响应。但理论上，服务器可以把现存的文档转换成某种客户端可用的文档。这种选项称为转码。</li>
+                        <li>假设的转码：<br>
+                            <img src="resources/06EA6E2EB4C1A0044A4375430885ECDB.jpg" alt="IMAGE" width="621" height="202"><br>
+                            有 3 种类别的转码：格式转换、信息综合、内容注入。</li>
+                    </ul>
+                    </div><div class="cell markdown-cell"><h2>1. 格式转换</h2>
+                    <ul>
+                        <li>格式转换：是指将数据从一种格式转换成另一种合适格式，使之可以被相应的客户端查看。</li>
+                        <li>格式转换可以由内容协商首部集来驱动，但也能由 User-Agent 首部来驱动。</li>
+                        <li>注意，内容转换或转码与内容编码或传输编码是不同的，后两者一般用于更高效或安全地传输内容，而前两者则可使访问设备能够查看内容。</li>
+                    </ul>
+                </div><div class="cell markdown-cell"><h2>2. 信息综合</h2>
+                    <ul>
+                        <li>信息综合(information synthesis)：从文档中提取关键的信息片段，这是一种有用的转码操作。这种操作的例子包括根据小节标题生成文档的大纲，或者从页面中删除广告和商标。</li>
+                        <li>根据内容中的关键字对页面分类是更精细的技术，有助于总结文档的精髓。这种技术常用于 Web 页面分类系统中，比如门户网站的 Web 页面目录。</li>
+                    </ul>
+                </div><div class="cell markdown-cell"><h2>3. 内容注入</h2>
+                    <ul>
+                        <li>内容注入：前面描述的两类转码通常会减少 Web 文档的内容，但还有另一类转换会增加文档的内容，即内容注入转码。内容注入转码的例子有自动广告生成器和用户追踪系统。</li>
+                        <li>设想一下，一个能往途经的每个 HTML 页面中自动添加广告的广告植入转码器是多么的诱人(当然也很烦人)。这类转码操作只能动态进行——它必须即时添加与当前的特定用户有关，或针对特定用户的广告。也可以构建用户追踪系统，在页面中动态增加内容，用于收集用户查看页面和客户端浏览方式的统计信息。</li>
+                    </ul>
+                </div><div class="cell markdown-cell"><h2>4. 转码与静态预生成的对比</h2>
+                    <ul>
+                        <li>转码的替代做法是在 Web 服务器上建立 Web 页面的不同副本。但是，这种方法不是很切合实际，原因很多：某个页面中的任何小改动都会牵扯很多页面，需要很多空间来存储各页面的不同版本，而且使页面编目和 Web 服务器编程(以提供正确的版本)变得更加困难。</li>
+                        <li>有些转码操作，比如广告插入(尤其是定向广告插入)，就不能静态实现——因为插入什么广告和请求页面的用户有关。</li>
+                        <li>对单一的根页面进行即时转换，是比静态的预生成更容易的解决方案。但这样会在提供内容时增加时延。不过有时候其中一些计算可以由第三方进行，这样就减少了 Web 服务器上的计算负荷——比如可以由代理或缓存中的外部 Agent 完成转换。<br>
+                            <img src="resources/9615E1E4C8FE1C60B45F9A59E8E502A4.jpg" alt="IMAGE" width="733" height="441"></li>
+                    </ul>
+                </div>
+                </div>
             </div>
         </div>
         <div class="bottom">©2017-2017 Guan Zifei. All Rights Reserved.</div>
     </div>
     <div id="right">
-        <div class="content"></div>
-        <div class="discuss"></div>
+        <div class="content">
+            <p>本文目录</p>
+        </div>
+        <div class="discuss">
+            <p>本文评论</p>
+        </div>
     </div>
+    <a class="totop" href="#top"><img src="../img/totop.png" alt="flayaway" title="TOP"></a>
 </body>
 </html>
