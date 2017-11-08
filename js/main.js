@@ -1,6 +1,3 @@
-//markdown转换为html
-
-
 //汉堡菜单
 function burg() {
     let d = document.getElementById("navi");
