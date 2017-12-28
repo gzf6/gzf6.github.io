@@ -8,11 +8,20 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
-    <!--自己姓名网络字体-->
-    <link href='https://www.hanyi.studio/WebFonts/C3DB971E-443B-4D37-887D-530EE441EB6B/201710/css/D72055B3AE13D3C7.css' rel='stylesheet' type='text/css'/>
-    <!--口号网络字体-->
-    <link href='https://www.hanyi.studio/WebFonts/C3DB971E-443B-4D37-887D-530EE441EB6B/201710/css/E9B3229B7FE41218.css' rel='stylesheet' type='text/css'/>
     <script src="./js/main.js"></script>
+    <style>
+        @font-face
+        {
+            font-family: hanyitiaotiao;
+            src: url('https://blog-1255763759.cos.ap-chengdu.myqcloud.com/font/hanyitiaotiao.ttf');
+        }
+        .name,.slogan{
+            font-family: hanyitiaotiao;
+        }
+        .slogan{
+            font-size: 2.5em;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -29,7 +38,7 @@
 </header>
 <main class="about">
     <img class="me" src="http://blog-1255763759.coscd.myqcloud.com/img/me.png" alt="flyaway">
-    <div class="cssD72055B3AE13D3C7 name">
+    <div class="name">
         关子飞
     </div>
     <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
@@ -45,7 +54,7 @@
     <div id="weixin" class="weixin"><img src="./img/weixin.png" alt="flyaway" onclick="weixin()"></div>
     <div id="weibo" class="weibo"><img src="./img/weibo.png" alt="flyaway" onclick="weibo()"></div>
     <p>工作联系：<a href="mailto:guanzifei@outlook.com">guanzifei@outlook.com</a></p>
-    <div class="self cssE9B3229B7FE41218">放飞你的想象力<br />用不完的好奇心
+    <div class="slogan">放飞你的想象力<br />用不完的好奇心
     </div>
 </main>
 <footer>©2017-2017 Guan Zifei. All Rights Reserved.</footer>
